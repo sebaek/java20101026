@@ -1,0 +1,20 @@
+﻿PrintCheckerPattern
+PrintSquarePattern
+PrintTriangularPattern
+PrintStarPattern
+
+* * * * *      * * * * *    * * * * *        *
+ * * * * *     *       *     *     *     * *   * *
+* * * * *      *       *      *   *         * *
+ * * * * *     *       *       * *         *   *
+* * * * *      * * * * *        *         *     *
+   (a)            (b)          (c)           (d)
+
+PrintSheepPattern 
+          '__'
+          (oo)
+  /========//
+ / || @@ ||
+*  ||----||
+   VV    VV
+   ''    ''
