@@ -34,7 +34,7 @@ public class VariableExample {
 		// 1bit : 0, 1
 		byte b1;
 		b1 = -128;
-		b1 = -129;
+//		b1 = -129;
 
 		// 변수의 타입 8개 (기본타입 primitive type) + (class, interface 등)
 		// 정수 byte, short, int, long
