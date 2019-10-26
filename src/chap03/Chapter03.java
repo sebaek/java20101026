@@ -84,9 +84,28 @@ public class Chapter03 {
 		
 		s2 = 3 + s1 + 3;
 		System.out.println(s2);
+
+		
+		// °ýÈ£
+		double d5 = (3 + 2 - (1 - 10)) * 20 - (2 + 4);
 		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
