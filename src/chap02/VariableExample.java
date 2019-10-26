@@ -30,17 +30,59 @@ public class VariableExample {
 		int $var;
 		int numberOfTable; // lower camel case;
 		
-		// 1byte : 8개의 bit 
-		// 1bit : 0, 1
-		byte b1;
-		b1 = -128;
-//		b1 = -129;
-
 		// 변수의 타입 8개 (기본타입 primitive type) + (class, interface 등)
 		// 정수 byte, short, int, long
 		// 문자 char
 		// 실수 float, double
 		// 논리 boolean
+		
+		// 1byte : 8개의 bit 
+		// 1bit : 0, 1
+		byte b1;
+		b1 = -128;
+//		b1 = -129;
+//		b1 = 128;
+		
+		short s1;
+		s1 = -32768;
+		s1 = 32767;
+		
+		int i1;
+		i1 = -2100000000;
+		i1 = 2100000000;
+		
+		long l1;
+		l1 = 2893749273423427334L;
+		l1 = -8787519875912351L;
+		
+		char c1;
+		c1 = 'a';
+		c1 = '가';
+		c1 = '1';
+		c1 = ' ';
+		c1 = '+';
+		//c1 = 'ab';
+		//c1 = '';
+		
+		double d1 = 0.1;
+		d1 = 0.2;
+		d1 = 3;
+		
+		float f1 = 0.1F;
+		f1 = 0.2F;
+		
+		boolean bool1;
+		bool1 = true;
+		bool1 = false;
+		
+		// type 변환
+		int i2 = 3;
+		long l2  = 34;
+		
+		l2 = i2;       // 자동 타입 변환
+		i2 = (int) l2; // 강제 타입 변환 casting
+		
+		
 		
 		
 		
