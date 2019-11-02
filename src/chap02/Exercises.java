@@ -2,7 +2,7 @@ package chap02;
 
 public class Exercises {
 	public static void main(String[] args) {
-		// 1. ´ä 4
+		// 1. ë‹µ 4
 		int var = 3;
 		var = 4;
 //		var = 4.3;
@@ -22,18 +22,18 @@ public class Exercises {
 
 		
 		// 3. 
-		// Á¤¼ö byte(1byte), short;char(2byte), int(4byte),   long(8byte)
-		// ½Ç¼ö                               float(4byte), double(8byte)
-		// ³í¸® boolean(1byte)
+		// ì •ìˆ˜ byte(1byte), short;char(2byte), int(4byte),   long(8byte)
+		// ì‹¤ìˆ˜                               float(4byte), double(8byte)
+		// ë…¼ë¦¬ boolean(1byte)
 		
 		
 		// 4. 
-		// Å¸ÀÔ : int, double
-		// º¯¼öÀÌ¸§ : age, price
-		// ¸®ÅÍ·² : 10, 3.14
+		// íƒ€ì… : int, double
+		// ë³€ìˆ˜ì´ë¦„ : age, price
+		// ë¦¬í„°ëŸ´ : 10, 3.14
 		
 		
-		// 5. ´ä3
+		// 5. ë‹µ3
 		byte byteValue = 10;
 		char charValue = 'A';
 		
@@ -43,7 +43,7 @@ public class Exercises {
 		double doubleValue = byteValue;
 		
 
-		// 6. ´ä4
+		// 6. ë‹µ4
 		int intValue6 = 10;
 		char charValue6 = 'A';
 		double doubleValue6 = 5.7;
@@ -55,7 +55,7 @@ public class Exercises {
 //		char var = (char) strValue;
 
 		
-		// 7. ´ä3
+		// 7. ë‹µ3
 		int var1 = 10;
 		long var2 = 10000000000000000L;
 //		char var3 = '';

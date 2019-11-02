@@ -2,8 +2,8 @@ package chap04;
 
 public class Continue {
 	public static void main(String[] args) {
-		// continue : for, whileÀÇ ³²Àº ¸í·É¹®À» ½ÇÇàÇÏÁö ¾Ê°í
-		// Áõ°¨½ÄÀÌ³ª Á¶°Ç½ÄÀ¸·Î ½ÇÇàÈå¸§ º¯°æ.
+		// continue : for, whileì˜ ë‚¨ì€ ëª…ë ¹ë¬¸ì„ ì‹¤í–‰í•˜ì§€ ì•Šê³ 
+		// ì¦ê°ì‹ì´ë‚˜ ì¡°ê±´ì‹ìœ¼ë¡œ ì‹¤í–‰íë¦„ ë³€ê²½.
 		
 		for (int i = 0; i < 10; i++) {
 			if (i == 3 || i == 6) {

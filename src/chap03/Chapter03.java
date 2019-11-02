@@ -3,7 +3,7 @@ package chap03;
 public class Chapter03 {
 
 	public static void main(String[] args) {
-		// 1. ´ÜÇ× ¿¬»êÀÚ
+		// 1. ë‹¨í•­ ì—°ì‚°ìž
 
 		// -
 		int var1;
@@ -35,12 +35,12 @@ public class Chapter03 {
 		System.out.println(!b1);
 		System.out.println(!b2);
 
-		// »ïÇ× ¿¬»êÀÚ
+		// ì‚¼í•­ ì—°ì‚°ìž
 		// ? :
 
-		// ÀÌÇ× ¿¬»êÀÚ
+		// ì´í•­ ì—°ì‚°ìž
 
-		// »ê¼ú ¿¬»êÀÚ +, - , *, /, %
+		// ì‚°ìˆ  ì—°ì‚°ìž +, - , *, /, %
 		int var3 = 3 + 4;
 		int var4 = 4 - 5;
 		int var5 = 5 * 2;
@@ -58,14 +58,14 @@ public class Chapter03 {
 		double d4 = d2 + d3;
 		System.out.println(d4);
 
-		// ¹®ÀÚ¿­ ¿¬°á ¿¬»êÀÚ +
+		// ë¬¸ìžì—´ ì—°ê²° ì—°ì‚°ìž +
 		String s1;
 		String s2;
 		s1 = "";
-		s1 = "°¡³ª´Ù";
+		s1 = "ê°€ë‚˜ë‹¤";
 		s1 = " abc ";
 
-		s2 = s1 + "¶ó¸¶¹Ù";
+		s2 = s1 + "ë¼ë§ˆë°”";
 		System.out.println(s2);
 
 		s1 = "3";
@@ -82,10 +82,10 @@ public class Chapter03 {
 		s2 = 3 + s1 + 3;
 		System.out.println(s2);
 
-		// °ýÈ£
+		// ê´„í˜¸
 		double d5 = (3 + 2 - (1 - 10)) * 20 - (2 + 4);
 
-		// ºñ±³ ¿¬»êÀÚ (°á°ú´Â Ç×»ó boolean)
+		// ë¹„êµ ì—°ì‚°ìž (ê²°ê³¼ëŠ” í•­ìƒ boolean)
 		// >, <, >=, <=, ==, !=
 
 		System.out.println(3 < 5);
@@ -96,17 +96,17 @@ public class Chapter03 {
 		System.out.println(3 != 5);
 
 		System.out.println();
-		// ³í¸® ¿¬»êÀÚ
+		// ë…¼ë¦¬ ì—°ì‚°ìž
 		// &&(and), ||(or)
 
-		// && ¾çº¯ÀÌ ¸ðµÎ trueÀÏ ¶§¸¸ °á°ú°¡ true
+		// && ì–‘ë³€ì´ ëª¨ë‘ trueì¼ ë•Œë§Œ ê²°ê³¼ê°€ true
 		System.out.println(true && true);
 		System.out.println(true && false);
 		System.out.println(false && true);
 		System.out.println(false && false);
 
 		System.out.println();
-		// || ¾çº¯ÀÌ ¸ðµÎ falseÀÏ ¶§¸¸ °á°ú°¡ false
+		// || ì–‘ë³€ì´ ëª¨ë‘ falseì¼ ë•Œë§Œ ê²°ê³¼ê°€ false
 		System.out.println(true || true);
 		System.out.println(true || false);
 		System.out.println(false || true);

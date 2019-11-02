@@ -2,7 +2,7 @@ package chap04;
 
 public class Break {
 	public static void main(String[] args) {
-		// break ´Â for³ª while¸¦ Áß´Ü ½ÃÅ²´Ù.
+		// break ëŠ” forë‚˜ whileë¥¼ ì¤‘ë‹¨ ì‹œí‚¨ë‹¤.
 
 		int i = 0;
 

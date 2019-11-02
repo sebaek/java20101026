@@ -2,28 +2,28 @@ package chap04;
 
 public class Chapter04If {
 	public static void main(String[] args) {
-		// Á¶°Ç¹®°ú ¹İº¹¹®
+		// ì¡°ê±´ë¬¸ê³¼ ë°˜ë³µë¬¸
 		
 		// if, else if, else, switch case, for, while, do while
 		
 		// if
 		
-//		if (µÅÁö°í±â°¡ ÀÖÀ¸¸é) {
-//			µÅÁö°í±â¸¦ ³Ö¾î¶ó;
+//		if (ë¼ì§€ê³ ê¸°ê°€ ìˆìœ¼ë©´) {
+//			ë¼ì§€ê³ ê¸°ë¥¼ ë„£ì–´ë¼;
 //		}
 		
 		int score = 40;
 		
 		if (score > 50) {
-			System.out.println("Âü ÀßÇß¾î¿ä.");
+			System.out.println("ì°¸ ì˜í–ˆì–´ìš”.");
 		}
 		
 		boolean check = true;
 		
 		if (check) {
-			System.out.println("È®ÀÎ µÇ¾ú½À´Ï´Ù.");
-			System.out.println("Ã¼Å©´Â trueÀÔ´Ï´Ù.");
-			System.out.println("0°³ ÀÌ»óÀÇ ¸í·É¹®ÀÌ ¿Ã ¼ö ÀÖ½À´Ï´Ù.");
+			System.out.println("í™•ì¸ ë˜ì—ˆìŠµë‹ˆë‹¤.");
+			System.out.println("ì²´í¬ëŠ” trueì…ë‹ˆë‹¤.");
+			System.out.println("0ê°œ ì´ìƒì˜ ëª…ë ¹ë¬¸ì´ ì˜¬ ìˆ˜ ìˆìŠµë‹ˆë‹¤.");
 		}
 		
 		
@@ -32,11 +32,11 @@ public class Chapter04If {
 		score = 20;
 		
 		if (score > 50) {
-			System.out.println("Âü Àß Çß¾î¿ä.");
+			System.out.println("ì°¸ ì˜ í–ˆì–´ìš”.");
 		} else if (score > 30) {
-			System.out.println("³ª»ÚÁö ¾Ê¾Æ¿ä.");
+			System.out.println("ë‚˜ì˜ì§€ ì•Šì•„ìš”.");
 		} else if (score > 0) {
-			System.out.println("Á» ´õ ³ë·ÂÇÏ¼¼¿ä.");
+			System.out.println("ì¢€ ë” ë…¸ë ¥í•˜ì„¸ìš”.");
 		}
 		
 		// if, else
@@ -44,19 +44,19 @@ public class Chapter04If {
 		score = 50;
 		
 		if (score > 50) {
-			System.out.println("Âü Àß Çß¾î¿ä.");
+			System.out.println("ì°¸ ì˜ í–ˆì–´ìš”.");
 		} else {
-			System.out.println("Á» ´õ ³ë·ÂÇÏ¼¼¿ä.");
+			System.out.println("ì¢€ ë” ë…¸ë ¥í•˜ì„¸ìš”.");
 		}
 		
 		
 		
 		if (score > 50) {
-			System.out.println("Âü Àß Çß¾î¿ä.");
+			System.out.println("ì°¸ ì˜ í–ˆì–´ìš”.");
 		} else if (score > 30) {
-			System.out.println("³ª»ÚÁö ¾Ê¾Æ¿ä.");
+			System.out.println("ë‚˜ì˜ì§€ ì•Šì•„ìš”.");
 		} else {
-			System.out.println("Á» ´õ ³ë·ÂÇÏ¼¼¿ä.");
+			System.out.println("ì¢€ ë” ë…¸ë ¥í•˜ì„¸ìš”.");
 		}
 	
 		

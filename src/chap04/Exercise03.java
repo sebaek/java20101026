@@ -8,15 +8,15 @@ public class Exercise03 {
 			sum = sum + i;
 		}
 
-		System.out.println("3ÀÇ ¹è¼öÀÇ ÇÕ : " + sum);
+		System.out.println("3ì˜ ë°°ìˆ˜ì˜ í•© : " + sum);
 		
-		// 0°ú 1000»çÀÌÀÇ È¦¼öÀÇ °ªÀ» ´õÇÑ °á°ú¸¦ Ãâ·ÂÇÏ½Ã¿À.
+		// 0ê³¼ 1000ì‚¬ì´ì˜ í™€ìˆ˜ì˜ ê°’ì„ ë”í•œ ê²°ê³¼ë¥¼ ì¶œë ¥í•˜ì‹œì˜¤.
 		int sum2 = 0;
 		
 		for (int i = 1; i < 1000; i = i + 2) {
 			sum2 = sum2 + i;
 		}
 		
-		System.out.println("È¦¼öÀÇ ÇÕ : " + sum2);
+		System.out.println("í™€ìˆ˜ì˜ í•© : " + sum2);
 	}
 }

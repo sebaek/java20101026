@@ -2,12 +2,12 @@ package chap02;
 
 public class VariableExample {
 	public static void main(String[] args) {
-		// statement ½ÇÇà¹® 
-		// { block ÄÚµå ºí·° } 
-		// ÁÖ¼®
+		// statement ì‹¤í–‰ë¬¸ 
+		// { block ì½”ë“œ ë¸”ëŸ­ } 
+		// ì£¼ì„
 		// 
-		/* ÁÖ¼® ¿©·¯ÁÙ
-		 * ÁÖ¼® ¿©·¯ÁÙ2
+		/* ì£¼ì„ ì—¬ëŸ¬ì¤„
+		 * ì£¼ì„ ì—¬ëŸ¬ì¤„2
 		 * 
 		 * 
 		 */
@@ -18,9 +18,9 @@ public class VariableExample {
 		System.out.println("=========");
 		
 		
-		// º¯¼ö : °ªÀÌ ÀúÀåµÇ´Â °ø°£ÀÇ ÀÌ¸§
-		// º¯¼ö¸í ÀÛ¼º ±ÔÄ¢ : 
-		// ¼ıÀÚ, ¿µ¹®ÀÚ, _, $ Á¶ÇÕ, ´Ü ¼ıÀÚ°¡ ¸ÕÀú¿Ã¼ö ¾ø´Ù.
+		// ë³€ìˆ˜ : ê°’ì´ ì €ì¥ë˜ëŠ” ê³µê°„ì˜ ì´ë¦„
+		// ë³€ìˆ˜ëª… ì‘ì„± ê·œì¹™ : 
+		// ìˆ«ì, ì˜ë¬¸ì, _, $ ì¡°í•©, ë‹¨ ìˆ«ìê°€ ë¨¼ì €ì˜¬ìˆ˜ ì—†ë‹¤.
 		int var3;
 		int var_3;
 		int var$3;
@@ -30,13 +30,13 @@ public class VariableExample {
 		int $var;
 		int numberOfTable; // lower camel case;
 		
-		// º¯¼öÀÇ Å¸ÀÔ 8°³ (±âº»Å¸ÀÔ primitive type) + (class, interface µî)
-		// Á¤¼ö byte, short, int, long
-		// ¹®ÀÚ char
-		// ½Ç¼ö float, double
-		// ³í¸® boolean
+		// ë³€ìˆ˜ì˜ íƒ€ì… 8ê°œ (ê¸°ë³¸íƒ€ì… primitive type) + (class, interface ë“±)
+		// ì •ìˆ˜ byte, short, int, long
+		// ë¬¸ì char
+		// ì‹¤ìˆ˜ float, double
+		// ë…¼ë¦¬ boolean
 		
-		// 1byte : 8°³ÀÇ bit 
+		// 1byte : 8ê°œì˜ bit 
 		// 1bit : 0, 1
 		byte b1;
 		b1 = -128;
@@ -57,7 +57,7 @@ public class VariableExample {
 		
 		char c1;
 		c1 = 'a';
-		c1 = '°¡';
+		c1 = 'ê°€';
 		c1 = '1';
 		c1 = ' ';
 		c1 = '+';
@@ -75,12 +75,12 @@ public class VariableExample {
 		bool1 = true;
 		bool1 = false;
 		
-		// type º¯È¯
+		// type ë³€í™˜
 		int i2 = 3;
 		long l2  = 34;
 		
-		l2 = i2;       // ÀÚµ¿ Å¸ÀÔ º¯È¯
-		i2 = (int) l2; // °­Á¦ Å¸ÀÔ º¯È¯ casting
+		l2 = i2;       // ìë™ íƒ€ì… ë³€í™˜
+		i2 = (int) l2; // ê°•ì œ íƒ€ì… ë³€í™˜ casting
 		
 		
 		
@@ -95,16 +95,16 @@ public class VariableExample {
 		System.out.println(var);
 		
 		
-		//10À» º¯¼ö valueÀÇ ÃÊ±â°ªÀ¸·Î ÀúÀå
+		//10ì„ ë³€ìˆ˜ valueì˜ ì´ˆê¸°ê°’ìœ¼ë¡œ ì €ì¥
 		int value = 10;
 		
 		
-		// º¯¼ö value °ªÀ» ÀĞ°í 10À» ´õÇÏ´Â »ê¼ú ¿¬»êÀ» ¼öÇà
-		// ¿¬»êÀÇ °á°ú°ªÀ» º¯¼ö resultÀÇ ÃÊ±â°ªÀ¸·Î ÀúÀå
+		// ë³€ìˆ˜ value ê°’ì„ ì½ê³  10ì„ ë”í•˜ëŠ” ì‚°ìˆ  ì—°ì‚°ì„ ìˆ˜í–‰
+		// ì—°ì‚°ì˜ ê²°ê³¼ê°’ì„ ë³€ìˆ˜ resultì˜ ì´ˆê¸°ê°’ìœ¼ë¡œ ì €ì¥
 		int result = value + 10;
 		
 		
-		// º¯¼ö result °ªÀ» ÀĞ°í ÄÜ¼Ö¿¡ Ãâ·Â
+		// ë³€ìˆ˜ result ê°’ì„ ì½ê³  ì½˜ì†”ì— ì¶œë ¥
 		System.out.println(result);
 	}
 }

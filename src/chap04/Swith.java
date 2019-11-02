@@ -3,23 +3,23 @@ package chap04;
 public class Swith {
 	public static void main(String[] args) {
 		// swith case
-		// ¾î¶² ¸í·É¹®µéÀ» ¼±ÅÃÇØ¼­ ½ÇÇàÇÏ°í ½ÍÀ» ¶§ »ç¿ë.
+		// ì–´ë–¤ ëª…ë ¹ë¬¸ë“¤ì„ ì„ íƒí•´ì„œ ì‹¤í–‰í•˜ê³  ì‹¶ì„ ë•Œ ì‚¬ìš©.
 
-		// keyÀÇ Å¸ÀÔÀº byte, char, short, long, int, String 
+		// keyì˜ íƒ€ì…ì€ byte, char, short, long, int, String 
 		int key = 2;
 		switch (key) {
 		case 1:
-			System.out.println("Å°´Â 1ÀÔ´Ï´Ù.");
+			System.out.println("í‚¤ëŠ” 1ì…ë‹ˆë‹¤.");
 		case 2:
-			System.out.println("Å°´Â 2ÀÔ´Ï´Ù.");
+			System.out.println("í‚¤ëŠ” 2ì…ë‹ˆë‹¤.");
 			break;
 
 		case 3:
-			System.out.println("Å°´Â 3ÀÔ´Ï´Ù.");
+			System.out.println("í‚¤ëŠ” 3ì…ë‹ˆë‹¤.");
 			break;
 
 		default:
-			System.out.println("ÀûÀıÇÑ case°¡ ¾ø½À´Ï´Ù.");
+			System.out.println("ì ì ˆí•œ caseê°€ ì—†ìŠµë‹ˆë‹¤.");
 			break;
 		}
 

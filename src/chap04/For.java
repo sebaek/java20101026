@@ -4,7 +4,7 @@ public class For {
 	public static void main(String[] args) {
 		// for
 
-		// ¹İº¹ÇÒ ¸í·É¹®ÀÌ ÀÖÀ» ¶§ »ç¿ë
+		// ë°˜ë³µí•  ëª…ë ¹ë¬¸ì´ ìˆì„ ë•Œ ì‚¬ìš©
 //		System.out.println(1);
 //		System.out.println(2);
 //		System.out.println(3);
@@ -16,10 +16,10 @@ public class For {
 //		System.out.println(9);
 //		System.out.println(10);
 
-//		for ( 1 ÃÊ±âÈ­ ;  2 Á¶°Ç½Ä ; 4 Áõ°¨½Ä) {
-//			3 ½ÇÇà¹®;
+//		for ( 1 ì´ˆê¸°í™” ;  2 ì¡°ê±´ì‹ ; 4 ì¦ê°ì‹) {
+//			3 ì‹¤í–‰ë¬¸;
 //		}
-// 		½ÇÇà¼ø¼­ 1, 2, 3, 4, 2, 3, 4, 2, 3, 4, 2, 3, 4
+// 		ì‹¤í–‰ìˆœì„œ 1, 2, 3, 4, 2, 3, 4, 2, 3, 4, 2, 3, 4
 
 		for (int i = 1; i <= 10; i++) {
 
