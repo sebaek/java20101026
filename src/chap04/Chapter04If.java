@@ -1,6 +1,6 @@
 package chap04;
 
-public class Chapter04 {
+public class Chapter04If {
 	public static void main(String[] args) {
 		// 조건문과 반복문
 		
