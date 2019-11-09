@@ -11,11 +11,28 @@ public class MyClass {
 	
 	// 생성자
 	MyClass() {
-		
+//		this.name = "홍길동";
+//		this.age = 0;
+//		this.method1();
+		this("홍길동", 0);
+	}
+	
+	MyClass(int age) {
+//		this.name = "홍길동";
+//		this.age = age;
+//		this.method1();
+		this("홍길동", age);
+	}
+	
+	MyClass(String name) {
+//		this.name = name;
+//		this.age = 0;
+//		this.method1();
+		this(name, 0);
 	}
 	
 	MyClass(String name, int age) {
-		System.out.println("객체 생성 중....");
+//		System.out.println("객체 생성 중....");
 		this.name = name;
 		this.age = age;
 		this.method1();
@@ -35,7 +52,7 @@ public class MyClass {
 	
 	public void method1() {
 		System.out.println(this.name + ":" + this.age);
-		System.out.println(name + ":" + age);
+//		System.out.println(name + ":" + age);
 	}
 	
 	public void method2(String paper) {

@@ -66,6 +66,13 @@ public class MyApp {
 		MyClass m2 = new MyClass("차범근", 33);
 //		System.out.println(m2.name);
 //		System.out.println(m2.age);
+		
+		System.out.println();
+		
+		MyClass m3 = new MyClass();
+		MyClass m4 = new MyClass("이강인");
+		MyClass m5 = new MyClass(33);
+		MyClass m6 = new MyClass("메시", 11);
 	
 	}
 }
