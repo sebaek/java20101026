@@ -1,4 +1,4 @@
-package chap06;
+package chap06.exercise17;
 
 public class Printer {
 	public static void println(int i) {

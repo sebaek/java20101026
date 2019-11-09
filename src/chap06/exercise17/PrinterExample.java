@@ -1,4 +1,4 @@
-package chap06;
+package chap06.exercise17;
 
 public class PrinterExample {
 	public static void main(String[] args) {
