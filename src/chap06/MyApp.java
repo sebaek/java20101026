@@ -15,5 +15,22 @@ public class MyApp {
 		c.method3("뉴욕");
 		c.method3("뉴욕", "서울");
 		
+		c.add(3, 4);
+		c.diff(6, 7);
+		c.div(6, 2);
+		c.multi(8, 3);
+		
+		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+

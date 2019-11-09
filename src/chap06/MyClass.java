@@ -34,7 +34,25 @@ public class MyClass {
 	public void method3(String city1) {
 		System.out.println(city1);
 	}
+	
+	public void add(int i, int j) {
+		
+		System.out.println("더한 값은 : " + (i + j) + "입니다.");
+		
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
