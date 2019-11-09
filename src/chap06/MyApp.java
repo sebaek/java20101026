@@ -31,9 +31,34 @@ public class MyApp {
 		System.out.println("반환된 더한 값은 : " + d + "입니다.");
 		
 		System.out.println("곱한 값은 : " + c.multi(3.0, 4.0) + "입니다.");
+		
+		System.out.println();
+		c.name = "트럼프";
+		c.age = 34;
+		System.out.println(c.name + "의 나이는 " + c.age + "세 입니다.");
+		
+		
+		c2.name = "오바마";
+		c2.age = 100;
+		System.out.println(c2.name + "의 나이는 " + c2.age + "세 입니다.");
+		
+		MyClass c3 = new MyClass();
+		System.out.println(c3.name);
 	
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

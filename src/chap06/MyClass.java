@@ -1,6 +1,12 @@
 package chap06;
 
 public class MyClass {
+	// (인스턴스) 필드 = 인스턴스 변수
+	String name = "손흥민";
+	int age;
+
+	
+	// 메소드들
 	
 	public void method1() {
 		System.out.println("기능 1을 실행합니다.");
