@@ -1,15 +1,12 @@
 package chap07;
 
-public class SuperClass {
+public abstract class SuperClass {
 	public String name;
-	
-	
 	
 	public SuperClass(String name) {
 		this.name = name;
 	}
 	
-	public void desc() {
-		System.out.println("저는 " + name + "입니다.");
-	}
+	public abstract void desc();
+	public abstract void cry();
 }

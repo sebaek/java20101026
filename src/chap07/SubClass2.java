@@ -8,6 +8,11 @@ public class SubClass2 extends SuperClass {
 	}
 
 	@Override
+	public void cry() {
+		System.out.println("야옹");
+	}
+	
+	@Override
 	public void desc() {
 		System.out.println("저는 " + name + "입니다. 나이는 없습니다.");
 	}
