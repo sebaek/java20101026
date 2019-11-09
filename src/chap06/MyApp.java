@@ -20,9 +20,25 @@ public class MyApp {
 		c.div(6, 2);
 		c.multi(8, 3);
 		
+		c.add(7, 3);
+		c.diff(888, 999);
+		c.div(6666, 2222);
+		c.multi(5555, 33333);
 		
+		System.out.println();
+		double d = c.add(3.0, 4.0);
+		
+		System.out.println("반환된 더한 값은 : " + d + "입니다.");
 	}
 }
+
+
+
+
+
+
+
+
 
 
 

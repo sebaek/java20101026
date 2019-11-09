@@ -36,11 +36,32 @@ public class MyClass {
 	}
 	
 	public void add(int i, int j) {
-		
 		System.out.println("더한 값은 : " + (i + j) + "입니다.");
+	}
+	
+	public double add(double a, double b) {
+		System.out.println("더하는 중....");
 		
+		return a + b;
+	}
+	
+	
+	public void diff(int i, int k) {
+		System.out.println("뺀 값은 : "  + (i - k) + "입니다.");
+	}
+	
+	public void div(int i, int k) {
+		System.out.println("나눈 값은 : "  + (i / k) + "입니다.");
+	}
+	
+	public void multi(int i, int k) {
+		System.out.println("곱한 값은 : "  + (i * k) + "입니다.");
 	}
 }
+
+
+
+
 
 
 
