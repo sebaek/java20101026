@@ -45,6 +45,18 @@ public class MyClass {
 		return a + b;
 	}
 	
+	public double diff(double i, double k) {
+		return i - k;
+	}
+	
+	public double div(double i, double k) {
+		return i / k;
+	}
+	
+	public double multi(double i, double k) {
+		return i * k;
+	}
+	
 	
 	public void diff(int i, int k) {
 		System.out.println("뺀 값은 : "  + (i - k) + "입니다.");

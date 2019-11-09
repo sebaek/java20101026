@@ -29,6 +29,9 @@ public class MyApp {
 		double d = c.add(3.0, 4.0);
 		
 		System.out.println("반환된 더한 값은 : " + d + "입니다.");
+		
+		System.out.println("곱한 값은 : " + c.multi(3.0, 4.0) + "입니다.");
+	
 	}
 }
 
