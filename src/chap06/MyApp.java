@@ -57,6 +57,15 @@ public class MyApp {
 		MyClass.method4();
 		int g = MyClass.staticAdd(3, 5);
 		System.out.println(g);
+		
+		System.out.println();
+		MyClass m1 = new MyClass("박지성", 55);
+		System.out.println(m1.name);
+		System.out.println(m1.age);
+		
+		MyClass m2 = new MyClass("차범근", 33);
+		System.out.println(m2.name);
+		System.out.println(m2.age);
 	
 	}
 }

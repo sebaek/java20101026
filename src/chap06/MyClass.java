@@ -7,6 +7,19 @@ public class MyClass {
 	
 	// 스태틱 필드, 정적 필드, 클래스 필드, 클래스 변수
 	static String city;
+	
+	
+	// 생성자
+	MyClass() {
+		
+	}
+	
+	MyClass(String n, int a) {
+		name = n;
+		age = a;
+	}
+	
+	
 
 	
 	// 메소드들
