@@ -44,6 +44,19 @@ public class MyApp {
 		
 		MyClass c3 = new MyClass();
 		System.out.println(c3.name);
+		
+		MyClass.city = "서울";
+		System.out.println(MyClass.city);
+		System.out.println(c.city);
+		c.city = "부산";
+		System.out.println(c2.city);
+		System.out.println(MyClass.city);
+		
+		System.out.println();
+		
+		MyClass.method4();
+		int g = MyClass.staticAdd(3, 5);
+		System.out.println(g);
 	
 	}
 }
