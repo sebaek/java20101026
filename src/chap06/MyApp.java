@@ -60,12 +60,12 @@ public class MyApp {
 		
 		System.out.println();
 		MyClass m1 = new MyClass("박지성", 55);
-		System.out.println(m1.name);
-		System.out.println(m1.age);
+//		System.out.println(m1.name);
+//		System.out.println(m1.age);
 		
 		MyClass m2 = new MyClass("차범근", 33);
-		System.out.println(m2.name);
-		System.out.println(m2.age);
+//		System.out.println(m2.name);
+//		System.out.println(m2.age);
 	
 	}
 }

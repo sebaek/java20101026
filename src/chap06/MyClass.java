@@ -14,9 +14,11 @@ public class MyClass {
 		
 	}
 	
-	MyClass(String n, int a) {
-		name = n;
-		age = a;
+	MyClass(String name, int age) {
+		System.out.println("객체 생성 중....");
+		this.name = name;
+		this.age = age;
+		this.method1();
 	}
 	
 	
@@ -32,7 +34,8 @@ public class MyClass {
 	}
 	
 	public void method1() {
-		System.out.println("기능 1을 실행합니다.");
+		System.out.println(this.name + ":" + this.age);
+		System.out.println(name + ":" + age);
 	}
 	
 	public void method2(String paper) {
