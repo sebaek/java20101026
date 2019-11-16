@@ -32,10 +32,53 @@ public class CountLetter {
 				System.out.println(key + " : " + map.get(key));
 			}
 			
+			findMinMax(map);
 			
 			scanner.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 	}
+
+	private static void findMinMax(Map<Character, Integer> map) {
+		int min = Integer.MAX_VALUE;
+		char minChar = ' ';
+		int max = 0;
+		char maxChar = ' ';
+		
+		Set<Character> keys = map.keySet();
+		for (Character key : keys) {
+			int count = map.get(key);
+			if (count < min) {
+				min = count;
+				minChar = key;
+			}
+			if (count > max) {
+				max = count;
+				maxChar = key;
+			}
+		}
+		
+		System.out.println("최고 : " + maxChar + " = " + max);
+		System.out.println("최저 : " + minChar + " = " + min);
+	}
+	
+	
+	
+	
+	
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
