@@ -10,9 +10,11 @@ public class App2 {
 		Random random = new Random();
 		
 		for (int i = 0; i < 10; i++ ) {
-			list.add(random.nextInt());
+			list.add(random.nextInt(100));
 		}
 		
 		System.out.println(list);
+		
+		
 	}
 }
