@@ -3,18 +3,21 @@ package chap10;
 public class App1 {
 	public static void main(String[] args) {
 		try {
-			String str = null;
+			String str = "";
 			System.out.println(str.toString());
 			
 			System.out.println("클래스를 찾아봅니다.");
 			
-			Class.forName("java.lang.String2");
+			Class.forName("java.lang.String");
 			
 			System.out.println("클래스를 찾았습니다.");
 			
 		} catch (Exception e) {
 			System.out.println("예외가 발생했습니다.");
 			e.printStackTrace();
+		} finally {
+			//예외 발생과 상관없이 실행되는 코드들.
+			System.out.println("무조건 실행되는 코드");
 		}
 //		} catch (ClassNotFoundException e) {
 //			System.out.println("클래스를 찾지 못했습니다.");
