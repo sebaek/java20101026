@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class App2 {
 	public static void main(String[] args) {
-		List list = new ArrayList();
+		List<Integer> list = new ArrayList<>();
 		Random random = new Random();
 		
 		for (int i = 0; i < 10; i++ ) {
