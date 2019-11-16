@@ -16,9 +16,5 @@ public class App1 {
 		for (Integer n : set) {
 			System.out.println(n);
 		}
-		
-		
-		
-		
 	}
 }
