@@ -1,6 +1,7 @@
 package chap15.list;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -32,6 +33,18 @@ public class App2 {
 		
 		System.out.println("최대값:" + max);
 		System.out.println("최소값:" + min);
+		
+		System.out.println();
+		Integer mmax = Collections.max(list);
+		Integer mmin = Collections.min(list);
+		
+		System.out.println("최대값:" + mmax);
+		System.out.println("최소값:" + mmin);
+		
+		Collections.sort(list);
+		System.out.println(list);
+		Collections.shuffle(list);
+		System.out.println(list);
 		
 	}
 }
