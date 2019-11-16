@@ -15,6 +15,30 @@ public class App2 {
 		
 		System.out.println(list);
 		
+		int min = 101;
+		int max = -1;
+		
+		for (int i = 0; i < list.size(); i++) {
+			int item = list.get(i);
+			
+			if (min > item) {
+				min = item;
+			}
+			
+			if (max < item) {
+				max = item;
+			}
+		}
+		
+		System.out.println("최대값:" + max);
+		System.out.println("최소값:" + min);
 		
 	}
 }
+
+
+
+
+
+
+
